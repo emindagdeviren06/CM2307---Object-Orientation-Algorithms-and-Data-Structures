@@ -7,7 +7,7 @@ public class Room {
     private double rent;
 
 
-public Room(String Location, double size, String amenities, double rent) {
+public Room(String location, double size, String amenities, double rent) {
     this.location = location;
     this.size = size;
     this.amenities = amenities;
@@ -34,7 +34,7 @@ public double getRent() {
 //description of the room and it's description
 @Override
 public String toString() {
-    return "Room at" + location + "| Size:" + size + "sqm | Amenities:" + amenities + " | Rent:£" + rent;
+    return "Room at " + location + "| Size:" + size + " sqm | Amenities:" + amenities + " | Rent:GBP " + rent;
 }
 
 }
