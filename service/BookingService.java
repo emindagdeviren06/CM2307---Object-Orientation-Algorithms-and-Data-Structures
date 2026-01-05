@@ -7,6 +7,7 @@ import model.Room;
 import model.Student;
 
 public class BookingService {
+
     private List<Booking> bookings;
 
     public BookingService() {
@@ -28,14 +29,8 @@ public class BookingService {
     }
 
 
-
-
-
-    public void listBookings() {
-        System.out.println("All bookings:");
-        for (Booking b : bookings) {
-            System.out.println(b);
-        }
+    public List<Booking> getBookings() {
+        return bookings;
     }
 
 
